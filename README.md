@@ -43,65 +43,6 @@ com.example.Transaction
 │
 └── TransactionMapper.java
 
-
-Endpoints
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-MethodEndpointDescriptionPOST/transaction/createCreate a new transactionGET/transaction/allGet all transactionsGET/transaction/{id}Get transaction by IDGET/transaction/balanceGet current balanceGET/transaction/filterFilter transactions by amount
-
-How to Run
-
-Clone the repository:
-Shellgit clone https://github.com/your-username/Transaction.gitShow more lines
-
-Navigate to the project directory:
-Shellcd TransactionShow more lines
-
-Build and run the application:
-Shellmvn spring-boot:runShow more lines
-
-Access H2 Console:
-http://localhost:8080/h2-console
-
-
-JDBC URL: jdbc:h2:mem:testdb
-
-
-
-
 Future Enhancements
 
 Add authentication & authorization using Spring Security.
